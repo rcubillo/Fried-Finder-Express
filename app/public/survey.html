@@ -1,0 +1,310 @@
+<!-- 1. Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5
+based on how much the user agrees or disagrees with a question. -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Tab Title -->
+  <title>Friend Finder</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+
+<body>
+  <div class="container">
+
+    <h1><strong>Friend Finder </strong></h1>
+
+ <!-- Form to fill out with basic information of the user -->
+    <div>
+      <h3> Your basic information</h3>
+
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Name (Required)</label>
+          <input type="email" name="name" class="form-control" id="formName" placeholder="Your name">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Link to a photo (Required) </label>
+          <input type="email" name="name" class="form-control" id="formImage" placeholder="Link of a photo">
+        </div>
+      </form>
+    </div>
+    <hr>
+
+    <!-- Questions -->
+    <h4><strong>Question 1</strong></h4>
+    <h5>You would rather have a photographic memory than gain an extra 40 IQ points?</h5>
+    <select data-placeholder="" class="chosen-select" id="Q1">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h4><strong>Question 2</strong></h4>
+    <h5>You would rather never have internet access again than never be able to take an airplane again?</h5>
+    <select data-placeholder="" class="chosen-select" id="Q2">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h4><strong>Question 3</strong></h4>
+    <h5> You would rather be an amazing dancer than be great at math?</h5>
+    <select data-placeholder="" class="chosen-select" id="Q3">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+    <h4><strong>Question 4</strong></h4>
+    <h5>If it were possible to colonize mars in my lifetime, would you go? </h5>
+    <select data-placeholder="" class="chosen-select" id="Q4">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+   <h4><strong>Question 5</strong></h4>
+    <h5> Would you rather explore a new planet than the deepest parts of the ocean?</h5>
+    <select data-placeholder="" class="chosen-select" id="Q5">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h4><strong>Question 6</strong></h4>
+    <h5> If it were possible, would  you own a pet dinosaur?</h5>
+    <select data-placeholder="" class="chosen-select" id="Q6">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h4><strong>Question 7</strong></h4>
+    <h5>If you could go back to school, would you choose the same major?</h5>
+    <select data-placeholder="" class="chosen-select" id="Q7">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h4><strong>Question 8</strong></h4>
+    <h5>Would you rather be a famous rock singer than the next einstein/tesla?</h5>
+    <select data-placeholder="" class="chosen-select" id="Q8">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h4><strong>Question 9</strong></h4>
+    <h5>Would you rather eat pizza than vegetables.</h5>
+    <select data-placeholder="" class="chosen-select" id="Q9">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+
+
+    <h4><strong>Question 10</strong></h4>
+    <h5>You consider yourself to be more practical than artistic.</h5>
+    <select data-placeholder="" class="chosen-select" id="Q10">
+      <option value=""></option>
+      <option value="1">1 (Strongly Disagree)</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5 (Strongly Agree)</option>
+    </select>
+  </div>
+  </div><br><br>
+
+<!-- Submit button -->
+<div class="container">
+  <button id="submitButton" class="btn btn-primary btn-block" type="submit">Button</button>
+ </div>
+  <br>
+
+<!-- Footer -->
+<div class= "container">
+  <footer class="footer">
+    <a href="/api/friends">API Friends List</a>
+     <a href="https://rcubillo.github.io/FriendFinder/"  target="_blank">GitHub Repo</a>
+  </footer>
+ </div><br>
+
+  <!-- Looking for the  best match.(Modal) -->
+  <div id="resultsModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!--  Content-->
+      <div class="modal-content">
+
+        <!-- Adding a "X" into the modal to be able to close it when it  pop ups. -->
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title"><strong>Meet Your New Friend!</strong></h2>
+        </div>
+
+        <!-- Body of the modal-->
+        <div class="modal-body">
+          <h2 id="matchName"></h2>
+          <img id="matchImg" src="" alt="Image Not Found" style="max-width: 350px;">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+
+
+  <!-- Link in jQuery -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+
+
+  <!-- Latest compiled and minified JavaScript (USED FOR THE MODAL) -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+
+  <!-- JavaScript for Submission Logic -->
+  <script>
+
+    // Global Variable Declaration (scoping fix)
+    var allFieldsCompleted;
+
+    $(document).ready(function () {
+
+      // Event Listener for Submission
+      $('#submitButton').on('click', function () {
+
+        // Check if all the user fields are completed
+        checkIfComplete(function () {
+
+          // Proceed with AJAX call if all questions are answered
+          if (allFieldsCompleted) {
+            collectInputs();
+          }
+          else {
+            alert("Don't be creepy. Please fill out the rest information.");
+          }
+        });
+      });
+    });
+
+
+    // Function to valid user input
+    function checkIfComplete(callback) {
+
+      // Check through all the questions (i.e. iterate through all of class "chosen-select")
+      var questionsCompleted;
+      $('.chosen-select').each(function () {
+        if ($(this).val() == "") {
+          questionsCompleted = false;
+        }
+      })
+
+        // This counters the async behavior of $.each()
+        .promise().done(function () {
+
+          // Check if any questions are incomplete
+          if (questionsCompleted == false) {
+            allFieldsCompleted = false;
+          }
+
+          // Determine if Name is entered
+          else if ($('#formName').val().trim() == "") {
+            allFieldsCompleted = false;
+          }
+
+          // Determine if Link is entered
+          else if ($('#formImage').val().trim() == "") {
+            allFieldsCompleted = false;
+          }
+
+          // Otherwise, the all fields are completed
+          else {
+            allFieldsCompleted = true;
+          }
+
+          // Fire Off Callback (to counter async behavior of $.each)
+          callback();
+
+        });
+    }
+
+
+    function collectInputs() {
+
+      // This is a new object
+      var newFriend = {
+        name: $('#formName').val().trim(),
+        photo: $('#formImage').val().trim(),
+        scores: []
+      };
+
+      // Creating a loop to go through questions to get scores
+      var scoresArray = [];
+      $('.chosen-select').each(function () {
+        scoresArray.push(parseInt($(this).val())); // Parse Input Value as integer
+      })
+        // This counters the async behavior of $.each()
+        .promise().done(function () {
+
+          // Push the array of scores to the new friend object
+          newFriend.scores = scoresArray;
+
+          // POST the newFriend to the friends.js file and get back the best match
+          var currentURL = window.location.origin;
+          $.post(currentURL + "/api/friends", newFriend, function (data) {
+
+            // Add Best Match attributes to Modal
+            $('#matchName').text(data.name);
+            $('#matchImg').attr('src', data.photo);
+
+            // Show the modal with the best match
+            $("#resultsModal").modal('toggle');
+          });
+        });
+    }
+  </script>
+</body>
+</html>
